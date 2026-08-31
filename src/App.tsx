@@ -13,6 +13,7 @@ import { ConsultingCTA } from './components/cta/ConsultingCTA';
 import { Contact } from './components/contact/Contact';
 import { Footer } from './components/footer/Footer';
 import { AssessmentModal } from './components/assessment/AssessmentModal';
+import { LiveChatWidget } from './components/chat/LiveChatWidget';
 import { solutions } from './data/solutions';
 
 export default function App() {
@@ -96,6 +97,13 @@ export default function App() {
         isOpen={isAssessmentOpen}
         onClose={() => setIsAssessmentOpen(false)}
         onApplyResults={handleApplyAssessmentResults}
+      />
+
+      {/* Real-time AI-driven Live Chat Support Agent */}
+      <LiveChatWidget
+        onOpenAssessment={() => setIsAssessmentOpen(true)}
+        onSelectSolution={handleSelectSolution}
+        onConsultationClick={handleConsultationClick}
       />
 
     </div>
