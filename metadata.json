@@ -1,0 +1,7 @@
+{
+  "name": "CJ Konsultants AI Automation",
+  "description": "Design and deploy enterprise-grade AI automation solutions for customer service, sales, marketing, workflows, WhatsApp, email, and intelligent commerce.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
